@@ -1,0 +1,25 @@
+{
+  "ports": {
+    "P1": {
+      "id": "P1",
+      "latitude": 49.8397,
+      "longitude": 24.0297,
+      "containers": [],
+      "history": [
+        "S1"
+      ],
+      "current_ships": [
+        "S1"
+      ]
+    },
+    "P2": {
+      "id": "P2",
+      "latitude": 50.4501,
+      "longitude": 30.5234,
+      "containers": [],
+      "history": [],
+      "current_ships": []
+    }
+  },
+  "ships": {}
+}

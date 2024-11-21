@@ -1,0 +1,49 @@
+[
+    {
+      "type": "port",
+      "id": 101,
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    {
+      "type": "ship",
+      "id": 1,
+      "fuel": 1000,
+      "port_id": 101,
+      "total_capacity": 500,
+      "max_all": 10,
+      "max_heavy": 3,
+      "max_refrigerated": 2,
+      "max_liquid": 1,
+      "fuel_per_km": 10
+    },
+    {
+      "type": "container",
+      "id": 1001,
+      "weight": 100,
+      "container_type": "basic",
+      "item_type": "small",
+      "port_id": 101,
+      "item": {
+        "id": 201,
+        "weight": 50,
+        "count": 2,
+        "container_id": 1001
+      }
+    },
+    {
+      "type": "operation",
+      "action": "load",
+      "ship_id": 1,
+      "container_id": 1001,
+      "port_id": 101
+    },
+    {
+      "type": "operation",
+      "action": "sail",
+      "ship_id": 1,
+      "destination_port_id": 102,
+      "port_id": 101
+    }
+  ]
+  

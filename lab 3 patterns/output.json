@@ -1,0 +1,77 @@
+{
+    "ports": [
+        {
+            "id": 101,
+            "latitude": 37.7749,
+            "longitude": -122.4194,
+            "containers": [
+                {
+                    "id": 1001,
+                    "weight": 100,
+                    "container_type": "basic",
+                    "item": {
+                        "id": 201,
+                        "weight": 50,
+                        "count": 2,
+                        "container_id": 1001,
+                        "item_type": "small"
+                    }
+                }
+            ],
+            "ships": [
+                {
+                    "id": 1,
+                    "fuel": 1000,
+                    "port_id": 101,
+                    "total_capacity": 500,
+                    "max_all": 10,
+                    "max_heavy": 3,
+                    "max_refrigerated": 2,
+                    "max_liquid": 1,
+                    "fuel_per_km": 10,
+                    "containers": [
+                        {
+                            "id": 1001,
+                            "weight": 100,
+                            "container_type": "basic",
+                            "item": {
+                                "id": 201,
+                                "weight": 50,
+                                "count": 2,
+                                "container_id": 1001,
+                                "item_type": "small"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "ships": [
+        {
+            "id": 1,
+            "fuel": 1000,
+            "port_id": 101,
+            "total_capacity": 500,
+            "max_all": 10,
+            "max_heavy": 3,
+            "max_refrigerated": 2,
+            "max_liquid": 1,
+            "fuel_per_km": 10,
+            "containers": [
+                {
+                    "id": 1001,
+                    "weight": 100,
+                    "container_type": "basic",
+                    "item": {
+                        "id": 201,
+                        "weight": 50,
+                        "count": 2,
+                        "container_id": 1001,
+                        "item_type": "small"
+                    }
+                }
+            ]
+        }
+    ]
+}

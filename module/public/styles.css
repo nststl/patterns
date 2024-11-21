@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #4CAF50;
+  }
+  
+  #books-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .book {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .book h2 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  .book p {
+    margin: 5px 0;
+  }
+  

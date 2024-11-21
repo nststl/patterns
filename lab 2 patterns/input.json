@@ -1,0 +1,81 @@
+[
+    {
+      "type": "port",
+      "id": "P1",
+      "latitude": 49.8397,
+      "longitude": 24.0297
+    },
+    {
+      "type": "port",
+      "id": "P2",
+      "latitude": 50.4501,
+      "longitude": 30.5234
+    },
+    {
+      "type": "ship",
+      "id": "S1",
+      "fuel": 1000,
+      "port_id": "P1",
+      "total_capacity": 100,
+      "max_all": 50,
+      "max_heavy": 20,
+      "max_refrigerated": 10,
+      "max_liquid": 10,
+      "fuel_per_km": 5
+    },
+    {
+      "type": "container",
+      "id": "C1",
+      "weight": 10,
+      "container_type": "basic"
+    },
+    {
+      "type": "container",
+      "id": "C2",
+      "weight": 20,
+      "container_type": "heavy"
+    },
+    {
+      "type": "container",
+      "id": "C3",
+      "weight": 15,
+      "container_type": "refrigerated"
+    },
+    {
+      "type": "container",
+      "id": "C4",
+      "weight": 12,
+      "container_type": "liquid"
+    },
+    {
+      "type": "action",
+      "action_type": "load",
+      "ship_id": "S1",
+      "container_id": "C1"
+    },
+    {
+      "type": "action",
+      "action_type": "load",
+      "ship_id": "S1",
+      "container_id": "C2"
+    },
+    {
+      "type": "action",
+      "action_type": "sail",
+      "ship_id": "S1",
+      "destination_port_id": "P2"
+    },
+    {
+      "type": "action",
+      "action_type": "unload",
+      "ship_id": "S1",
+      "container_id": "C2"
+    },
+    {
+      "type": "action",
+      "action_type": "refuel",
+      "ship_id": "S1",
+      "amount": 200
+    }
+  ]
+  
